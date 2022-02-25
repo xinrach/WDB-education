@@ -1,0 +1,256 @@
+body {
+    background-color: #fff4e8;
+    font-family: monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: antiquewhite;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    background-color: antiquewhite;
+}
+
+.nav-button:hover {
+    color: #e2b789;
+    transition: all;
+}
+
+.logo {
+}
+
+#computer-logo {
+    width: 15%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 10% 0 10% 0;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-profile {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px 0 10px 0;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    position: relative;
+}
+
+.biography {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.bio {
+    color: gray;
+}
+
+.typewriter-effect{
+    display: inline-block;
+}
+
+.text{
+    overflow: hidden;
+    border-right: .15em solid #e2b789;
+    white-space: nowrap;
+    animation: 
+        typing 2s steps(20, end) forwards,
+        blink .8s 2s;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: #e2b789; }
+}
+
+h2 {
+    font-weight: normal;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.favorite-books {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-text {
+    width: 70%;
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
+.book-img {
+    padding: 10% 10% 10% 10%;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.favorite-header-text {
+    display: flex;
+    background-color: #e2b789;
+    color: white;
+    width: 100%;
+    margin: 3% 5% 3% 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 120%;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.arrow {
+    margin-top: 2%;
+    width: 5%;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    object-fit: contain;
+}
+
+.project-description {
+    width: 50%;
+    background-color: antiquewhite;
+    padding: 5%;
+    border-radius: 15px;
+    color: black;
+}
+
+.proj-col {
+    display: flex;
+    flex-direction: column;
+    background-color: #e2b789;
+    border-radius: 15px;
+    margin: 2% 2% 2% 2%;
+    width: 50%;
+    color: white;
+}
+
+.proj-name {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+}
+
+.contact-info {
+    margin-left: 2%;
+    width: 80%;
+}
+
+.icons {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1% 1% 1% 1%;
+}
